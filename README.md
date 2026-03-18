@@ -28,8 +28,8 @@ class AEDPC:
         curvature = grad2 / (1 + grad**2)**1.5 
         peak_idx = np.argmax(curvature)
         result_idx = max(self.k_min, min(peak_idx, self.k_max))
-
         return result_idx
+        
     def fit(self, X):
         X = np.array(X)
 
