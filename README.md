@@ -1,9 +1,9 @@
 # AE-DPC
-"""
-    cluster = AEDPC(sample_ratio=1, k_min=m, k_max=n)
-    labels = np.array(cluster.labels_)
-"""
-adaptive extended density peak clustering
+
+#    cluster = AEDPC(sample_ratio=1, k_min=m, k_max=n)
+#    labels = np.array(cluster.labels_)
+
+# adaptive extended density peak clustering
 import numpy as np
 import time
 import numpy as np
